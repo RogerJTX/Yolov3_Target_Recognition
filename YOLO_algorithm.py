@@ -123,6 +123,6 @@ def yolo_detect(pathIn='',
         cv2.imwrite(pathOut, img, [int(cv2.IMWRITE_JPEG_QUALITY), jpg_quality])
 
 
-pathIn = 'D:\Python/python_code/Liangzhi/TianPengTrans-tmp/etl/OCR/test02/4.png'
+pathIn = '...OCR/test02/4.png'
 pathOut = pathIn.replace('.jpg', '').replace('.png', '')+'_result.png'
 yolo_detect(pathIn,pathOut)
